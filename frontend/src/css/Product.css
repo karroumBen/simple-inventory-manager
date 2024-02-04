@@ -1,0 +1,85 @@
+.product .product-list {
+  height: 60vh;
+  overflow-y: auto;
+}
+.product .product-list table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.product .product-list table thead {
+  position: sticky;
+  top: 0;
+}
+.product .product-list table thead tr {
+  background-color: #e8e8e8;
+  line-height: 2;
+}
+
+.product .product-list table thead tr th {
+  text-align: left;
+  padding: 0.5rem 1rem;
+}
+
+.product .product-list table tbody tr td {
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.product .product-list table tbody tr:hover {
+  background-color: #f3f3f3;
+}
+
+.add-product {
+  margin: auto;
+  width: 100%;
+  max-width: 600px; 
+}
+
+.add-product .box {
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.add-product h1 {
+  margin: 1rem 0;
+}
+
+.add-product .form_control {
+  margin: 0.5rem;
+  text-align: left;
+}
+
+.add-product .form_control_wrapper {
+  margin-top: 1rem;
+}
+
+.add-product .error_container {
+  margin: 1rem 0.5rem;
+  text-align: left;
+}
+
+.add-product .ml {
+  margin-left: 12px;
+}
+
+.add-product .input-text {
+  width: 90%;
+  height: 30px;
+}
+
+.add-product .select {
+  width: 91%;
+  height: 36px;
+}
+
+.add-product .label {
+  font-weight: bold;
+}
+
+.add-product .actions {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
